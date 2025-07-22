@@ -1,0 +1,14 @@
+{
+  "newFileLocation": "folder",
+  "promptDelete": false,
+  "newFileFolderPath": "1 - C++",
+  "strictLineBreaks": true,
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
+}

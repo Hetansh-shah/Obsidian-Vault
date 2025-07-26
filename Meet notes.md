@@ -8,7 +8,7 @@
 	2. blackfly stereo cams
 	3. availability
 	4. options
-3. Z camera with IMU PR. (Intel realsense is noisy) 120mm baseline with UV polarization lens. OR Cognix  (stereo pairs)
+3. Zed camera with IMU PR. (Intel realsense is noisy) 120mm baseline with UV polarization lens. OR Cognix  (stereo pairs)
 	1. monocular camera with good shutter.
 4. Gaussian's splatting SLAM - for dense mapping and help to bring them in simulators
 5. No **RnD** on hardware.

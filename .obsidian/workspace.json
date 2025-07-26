@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - ROS2/AGV/Research.md",
+                "file": "3 - ROS2/Section 3 - First ROS2 Program.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Research"
+              "title": "Section 3 - First ROS2 Program"
+            }
+          },
+          {
+            "id": "ea200fd839b4b0c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - ROS2/Section 4 - ROS 2 tools.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Section 4 - ROS 2 tools"
+            }
+          },
+          {
+            "id": "7f58c4595c280882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - ROS2/Section 5 - ROS 2 Topics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Section 5 - ROS 2 Topics"
+            }
+          },
+          {
+            "id": "463166c48a5bf469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - ROS2/Section 6 - ROS2 services.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Section 6 - ROS2 services"
             }
           },
           {
@@ -79,7 +151,8 @@
               "title": "Meet notes"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -247,12 +320,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "066a1dbd5b8b0c6a",
+  "active": "463166c48a5bf469",
   "lastOpenFiles": [
-    "README.md",
-    "4 - ROS2/Untitled.canvas",
-    "3 - ROS2/AGV/Research.md",
+    "3 - ROS2/Section 5 - ROS 2 Topics.md",
+    "3 - ROS2/Section 6 - ROS2 services.md",
+    "3 - ROS2/Section 4 - ROS 2 tools.md",
     "3 - ROS2/Section 3 - First ROS2 Program.md",
+    "Meeting with Tushar Vaidya.md",
+    "README.md",
+    "Pictures",
+    "Pictures/Pasted image 20250723152341.png",
+    "Meet notes.md",
+    "3 - ROS2/AGV/Research.md",
+    "4 - ROS2/Untitled.canvas",
     "3 - ROS2/Commands.md",
     "2 - Templates/Callouts.md",
     "2 - Templates/New Note.md",
@@ -261,8 +341,6 @@
     "1_Cpp/command.md",
     "1_Cpp/Untitled.md",
     "1_Cpp/ROS2.md",
-    "Meeting with Tushar Vaidya.md",
-    "Meet notes.md",
     "4 - ROS2/WIN_20250711_10_34_03_Pro.jpg",
     "WIN_20250711_10_34_03_Pro.jpg",
     "3 - ROS2/AGV",
@@ -284,7 +362,6 @@
     "Untitled 14",
     "Untitled 13",
     "Untitled 12",
-    "Untitled 11",
     "1 - Rough Notes/Things to look into.md"
   ]
 }

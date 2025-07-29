@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - ROS2/Section 6 - ROS2 services.md",
+                "file": "1 - Rough Notes/Things to look up.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Section 6 - ROS2 services"
+              "title": "Things to look up"
             }
           },
           {
@@ -322,8 +322,8 @@
   },
   "active": "463166c48a5bf469",
   "lastOpenFiles": [
-    "3 - ROS2/Section 5 - ROS 2 Topics.md",
     "3 - ROS2/Section 6 - ROS2 services.md",
+    "3 - ROS2/Section 5 - ROS 2 Topics.md",
     "3 - ROS2/Section 4 - ROS 2 tools.md",
     "3 - ROS2/Section 3 - First ROS2 Program.md",
     "Meeting with Tushar Vaidya.md",

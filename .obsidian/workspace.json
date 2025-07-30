@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "066a1dbd5b8b0c6a",
+            "id": "9288fe18bd355ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - ROS2/Section 3 - First ROS2 Program.md",
+                "file": "3 - ROS2/Section 7 - ROS 2 Interfaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,79 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Section 3 - First ROS2 Program"
-            }
-          },
-          {
-            "id": "ea200fd839b4b0c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - ROS2/Section 4 - ROS 2 tools.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Section 4 - ROS 2 tools"
-            }
-          },
-          {
-            "id": "7f58c4595c280882",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - ROS2/Section 5 - ROS 2 Topics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Section 5 - ROS 2 Topics"
-            }
-          },
-          {
-            "id": "463166c48a5bf469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough Notes/Things to look up.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Things to look up"
+              "title": "Section 7 - ROS 2 Interfaces"
             }
           },
           {
@@ -133,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meet notes.md",
+                "file": "3 - ROS2/Section 7 - ROS 2 Interfaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Meet notes"
+              "title": "Section 7 - ROS 2 Interfaces"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 219.5
   },
   "right": {
     "id": "e7b92736f485c7bf",
@@ -317,51 +244,52 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "463166c48a5bf469",
+  "active": "9288fe18bd355ca1",
   "lastOpenFiles": [
-    "3 - ROS2/Section 6 - ROS2 services.md",
-    "3 - ROS2/Section 5 - ROS 2 Topics.md",
-    "3 - ROS2/Section 4 - ROS 2 tools.md",
+    "3 - ROS2/Commands.md",
+    "3 - ROS2/Section 7 - ROS 2 Interfaces.md",
     "3 - ROS2/Section 3 - First ROS2 Program.md",
+    "3 - ROS2/Section 4 - ROS 2 tools.md",
+    "3 - ROS2/Section 5 - ROS 2 Topics.md",
+    "3 - ROS2/Section 6 - ROS 2 services.md",
+    "ROS2.md",
+    "Meet notes.md",
+    "command.md",
+    "ROS 2 course.md",
+    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/robot_news_station.py",
+    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/number_publisher.py",
+    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/add_two_ints_client_no_oop.py",
+    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/add_two_ints_client.py",
+    "1 - Rough Notes/Things to look up.md",
+    "3 - ROS2/code_end_section6/Section 6 - ROS2 services.md",
+    "3 - ROS2/code_end_section6/my_cpp_pkg/src/robot_news_station.cpp",
+    "3 - ROS2/code_end_section6/my_cpp_pkg/src/template_cpp_node.cpp",
+    "3 - ROS2/code_end_section6/my_cpp_pkg/src/smartphone.cpp",
+    "3 - ROS2/code_end_section6/my_cpp_pkg/src/number_publisher.cpp",
+    "3 - ROS2/code_end_section6/my_cpp_pkg/src/number_counter.cpp",
+    "3 - ROS2/code_end_section6/my_cpp_pkg/src/my_first_node.cpp",
     "Meeting with Tushar Vaidya.md",
     "README.md",
-    "Pictures",
     "Pictures/Pasted image 20250723152341.png",
-    "Meet notes.md",
     "3 - ROS2/AGV/Research.md",
     "4 - ROS2/Untitled.canvas",
-    "3 - ROS2/Commands.md",
     "2 - Templates/Callouts.md",
     "2 - Templates/New Note.md",
-    "1 - Rough Notes/Things to look up.md",
     "1 - Rough Notes/Ideas.md",
     "1_Cpp/command.md",
     "1_Cpp/Untitled.md",
     "1_Cpp/ROS2.md",
     "4 - ROS2/WIN_20250711_10_34_03_Pro.jpg",
     "WIN_20250711_10_34_03_Pro.jpg",
-    "3 - ROS2/AGV",
     "WIN_20250711_10_34_03_Pro 1.jpg",
     "2 - Rough Notes/Requirements.md",
     "2025-07-18.md",
     "2025-07-17.md",
-    "3 - ROS2",
-    "1_Cpp",
     "3 - Projects/ESP32 based Controller.md",
-    "4 - Templates/new note.md",
-    "1 - Rough Notes/Untitled.md",
-    "2 - Templates",
-    "3 - Projects/Untitled.md",
-    "3 - Projects/Controller",
-    "3 - Projects",
-    "1 - Rough Notes/Reminders.md",
-    "Welcome.md",
-    "Untitled 14",
-    "Untitled 13",
-    "Untitled 12",
-    "1 - Rough Notes/Things to look into.md"
+    "4 - Templates/new note.md"
   ]
 }

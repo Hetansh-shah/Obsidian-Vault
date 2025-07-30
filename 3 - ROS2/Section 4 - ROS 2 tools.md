@@ -1,6 +1,6 @@
 **Date**: 2025-07-23 **Time**: 11:36
-**Status**: #child 
-**Tags**: 
+**Status**: #child #ROS2
+**Tags**: [[ROS2]]
 # Section 4 - ROS 2 tools
 
 ## 26. Introspect your node with ros2cli

@@ -34,8 +34,9 @@ ros2 param dump <node_name> # to view all the current node parameters' value
 E.g. ros2 param dump /turtlesim > turtlesim.yaml # this saves the values to turtlesim.yaml
 ros2 param load <node_name> <param_file> # to load parameters from file
 ros2 run <package_name> <executable_name> --ros-args --params-file <file_name> # to load at starting of the node
-
-
-
 ```
-
+Services:
+```bash
+ros2 service list
+ros2 service type </service_name>
+```

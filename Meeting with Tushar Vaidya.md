@@ -12,6 +12,8 @@ Car
 Humanoid (30 days)
 - jetson nano
 
+Lidar profiling. power consumption and ..?
+exxtrinsic callibration -> profile and study sensor. 
 
 
 

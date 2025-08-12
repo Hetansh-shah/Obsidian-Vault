@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ec6f10a149ead54",
+            "id": "4af83d242eacd4d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - ROS2/Section 7 - ROS 2 Interfaces.md",
+                "file": "3 - ROS2/ROS 2 - TFs, URDF/Section 3 - Create a URDF for a Robot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Section 7 - ROS 2 Interfaces"
+              "title": "Section 3 - Create a URDF for a Robot"
             }
           }
         ],
@@ -201,24 +201,28 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2ec6f10a149ead54",
+  "active": "4af83d242eacd4d6",
   "lastOpenFiles": [
-    "3 - ROS2/Section 8 - ROS 2 Parameters.md",
-    "3 - ROS2/Section 9 - Scaling with Launch Files.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 2 - TF (Transform) Overview.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 3 - Create a URDF for a Robot.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 9 - Scaling with Launch Files.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 8 - ROS 2 Parameters.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Commands.md",
+    "3 - ROS2/ROS 2 - TFs, URDF",
+    "3 - ROS2/ROS 2 for Beginners - 1",
+    "Meeting with Tushar Vaidya.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 7 - ROS 2 Interfaces.md",
     "Pasted image 20250806115846.png",
     "ROS2.md",
     "command.md",
-    "3 - ROS2/Commands.md",
-    "Meeting with Tushar Vaidya.md",
     "Meet notes.md",
     "Pictures/Pasted image 20250723152341.png",
-    "3 - ROS2/Section 6 - ROS 2 services.md",
-    "3 - ROS2/Section 3 - First ROS2 Program.md",
-    "3 - ROS2/Section 4 - ROS 2 tools.md",
-    "3 - ROS2/Section 7 - ROS 2 Interfaces.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 6 - ROS 2 services.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 3 - First ROS2 Program.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 4 - ROS 2 tools.md",
     "README.md",
     "steps.md",
-    "3 - ROS2/Section 5 - ROS 2 Topics.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 5 - ROS 2 Topics.md",
     "ROS 2 course.md",
     "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/robot_news_station.py",
     "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/number_publisher.py",
@@ -230,8 +234,6 @@
     "3 - ROS2/code_end_section6/my_cpp_pkg/src/template_cpp_node.cpp",
     "3 - ROS2/code_end_section6/my_cpp_pkg/src/smartphone.cpp",
     "3 - ROS2/code_end_section6/my_cpp_pkg/src/number_publisher.cpp",
-    "3 - ROS2/code_end_section6/my_cpp_pkg/src/number_counter.cpp",
-    "3 - ROS2/code_end_section6/my_cpp_pkg/src/my_first_node.cpp",
     "3 - ROS2/AGV/Research.md",
     "4 - ROS2/Untitled.canvas",
     "2 - Templates/Callouts.md",
@@ -242,7 +244,6 @@
     "1_Cpp/ROS2.md",
     "4 - ROS2/WIN_20250711_10_34_03_Pro.jpg",
     "WIN_20250711_10_34_03_Pro.jpg",
-    "WIN_20250711_10_34_03_Pro 1.jpg",
-    "2 - Rough Notes/Requirements.md"
+    "WIN_20250711_10_34_03_Pro 1.jpg"
   ]
 }

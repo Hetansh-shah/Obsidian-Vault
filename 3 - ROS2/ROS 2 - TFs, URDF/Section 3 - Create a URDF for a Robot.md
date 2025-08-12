@@ -103,4 +103,79 @@ URDF stands for **Unified Robot Description Format**.
 	</joint>
 </robot>
 ```
+
+## 16. Different types of joints
+### Revolute
+```xml
+<?xml version="1.0"?>
+<robot name="agv">
+    <material name="green">
+        <color rgba="0 0.5 0 1" />
+    </material>
+
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1" />
+    </material>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.54 0.36 0.1" />
+            </geometry>
+            <origin xyz="0 0 0.05" rpy="0 0 0" /> 
+            <material name="green" />
+        </visual>
+    </link>
+
+
+    <link name="second_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.2" />
+            </geometry>
+            <origin xyz="0 0 0.1" rpy="0 0 0" /> 
+            <material name="gray" />
+        </visual>
+    </link>
+
+    <joint name="base_second_joint" type="revolute">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+        <limit lower="-1.57" upper="1.57" effort="100" velocity="100" />
+    </joint>
+
+</robot>
+```
+
+### Continuous
+- can be used for wheels, (don't have limits)
+```xml
+	<joint name="base_second_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+    </joint>
+```
+
+### Prismatic
+- Can be used for translational/sliding movements
+```xml
+    <joint name="base_second_joint" type="prismatic">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
+        <limit lower="-0.27" upper="0.27" effort="100" velocity="100" />
+    </joint>
+```
+
+
+
+
+
+
 ## References
+https://www.udemy.com/course/ros2-tf-urdf-rviz-gazebo/learn/lecture/38689068#overview

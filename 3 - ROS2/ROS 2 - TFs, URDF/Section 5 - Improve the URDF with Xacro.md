@@ -64,6 +64,41 @@ And to be used by `size="${base_length} ${base_width} 0.1"`
 
 Use this format to create macros and use them to reduce the code size.
 
+## 34. Include a Xacro file in another Xacro file
+![[Pasted image 20250818102444.png]]
+The ==common_properties.xacro== contains the material tags. ==mobile_base.xacro== contains the links and joints. Both these files are called in the ==agv.urdf.xacro== in order to use xacro in xacro. This keeps the code clean and composite.
+
+
+You just need to include the below lines in the child xacro files.
+```xml
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+.
+.
+.
+</robot>
+```
+
+Below is the example of ==common_properties.xacro== file:
+```xml
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <material name="green">
+        <color rgba="0 0.5 0 1" />
+    </material>
+
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1" />
+    </material>
+    
+</robot>
+```
+
+## 36. Real meshes
+STL files or CAD files can be used to make the urdf instead of just box, cylinder and spheres. You just need to keep the stl files in meshes directory and include it in the link section. 
+![[Pasted image 20250818104137.png]]
+
 
 
 ## References

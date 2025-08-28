@@ -1,6 +1,6 @@
 **Date**: 2025-08-18 **Time**: 10:44
 **Status**:
-**Tags**: 
+**Tags**: [[ROS 2 - TFs]]
 # Section 6 - Simulate your robot
 ## 37. Intro
 **Rviz and Gazebo** are both different things. Rviz is used only for visualising your 3D files and gazebo is used for Simulation.
@@ -289,9 +289,81 @@ Gazebo plugin file:
 
 Castor plugin is used as it would instead introduce a drag to the robot/ more friction.
 
+## 48. Set up Gazebo bridge
+```xml
+<launch>
+    <let name="urdf_path" 
+         value="$(find-pkg-share my_robot_description)/urdf/agv.urdf.xacro" />
+
+    <let name="gazebo_config_path" 
+         value="$(find-pkg-share my_robot_bringup)/config/gazebo_bridge.yaml" />
+         
+    <let name="agv_urdf_config_path" 
+         value="$(find-pkg-share my_robot_description)/rviz/agv_urdf_config.rviz" />
+    
+    <node pkg="robot_state_publisher" exec="robot_state_publisher" >
+        <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
+    </node>
+
+    <include file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py" >
+        <arg name="gz_args" value="empty.sdf -r"/>
+    </include>
+
+    <node pkg="ros_gz_sim" exec="create" args="-topic robot_description"/>
+
+    <node pkg="ros_gz_bridge" exec="parameter_bridge">
+        <param name="config_file" value="$(var gazebo_config_path)"/>
+    </node>
+
+    <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var agv_urdf_config_path)"/>
+</launch>
+
+```
+add a config file for the bridge
+**Config File:**  (.yaml)
+```yaml
+- ros_topic_name: "/clock"
+  gz_topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "ignition.msgs.Clock"
+  direction: IGN_TO_ROS
+
+- ros_topic_name: "/joint_states"
+  gz_topic_name: "/world/empty/model/agv/joint_state"
+  ros_type_name: "sensor_msgs/msg/JointState"
+  gz_type_name: "ignition.msgs.Model"
+  direction: IGN_TO_ROS
+
+- ros_topic_name: "/tf"
+  gz_topic_name: "/model/agv/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "ignition.msgs.Pose_V"
+  direction: IGN_TO_ROS
+
+- ros_topic_name: "/cmd_vel"
+  gz_topic_name: "/model/agv/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "ignition.msgs.Twist"
+  direction: ROS_TO_IGN
+```
+
+## 50. Create a World in Gazebo
+![[Pasted image 20250820191611.png]]
+
+>[!info] Commands
+>1. `ign gazebo`
+>2. `ign gazebo test_world.sdf`
+
+
+
+
+## Conclusion
+![[Pasted image 20250822231907.png]]
 
 
 ## References
 https://en.wikipedia.org/wiki/List_of_moments_of_inertia
 https://github.com/gazebosim/gz-sim/blob/ign-gazebo6/src/systems/joint_state_publisher
 https://github.com/gazebosim/gz-sim/tree/ign-gazebo6/src/systems/diff_drive
+https://app.gazebosim.org/MovAi/fuel/models
+https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_bridge

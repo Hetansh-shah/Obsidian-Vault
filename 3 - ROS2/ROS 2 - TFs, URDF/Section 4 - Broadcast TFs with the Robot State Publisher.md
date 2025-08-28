@@ -1,14 +1,12 @@
 **Date**: 2025-08-12 **Time**: 17:00
 **Status**:
-**Tags**: 
+**Tags**: [[ROS 2 - TFs]]
 # Section 4 - Broadcast TFs with the Robot State Publisher
 
 ## 22. Run the robot state publisher
-`ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro agv.urdf)"` [[command]]
-
-`ros2 run joint_state_publisher_gui joint_state_publisher_gui` [[command]]
-
-`ros2 run rviz2 rviz2` [[command]] - to see the robo
+`ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro agv.urdf)"` #command 
+`ros2 run joint_state_publisher_gui joint_state_publisher_gui` #command 
+`ros2 run rviz2 rviz2` #command  - to see the robo
 
 
 ## 24. Launch File for URDF

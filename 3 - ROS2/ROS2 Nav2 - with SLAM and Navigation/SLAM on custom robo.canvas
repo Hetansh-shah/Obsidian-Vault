@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"a8a84c2fb9186b84","type":"text","text":"Install SLAM Toolbox\n`sudo apt install ros-humble-slam-toolbox`","x":-245,"y":-900,"width":250,"height":96},
+		{"id":"473d73ec0a5d443e","x":115,"y":-900,"width":250,"height":96,"type":"text","text":"Requirement ->\nLaserScan should be published on the /scan topic"},
+		{"id":"f3c24e9054ee4c15","x":-60,"y":-640,"width":250,"height":60,"type":"text","text":"This is to load a new map"},
+		{"id":"4c9f006052752093","x":-220,"y":-340,"width":250,"height":120,"type":"text","text":"Terminal 2: \n`ros2 launch nav2_bringup navigation.launch.py use_sim_time:=True`"},
+		{"id":"d9d7744729602525","x":100,"y":-340,"width":250,"height":120,"type":"text","text":"Terminal 3: \n`ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True`\n"},
+		{"id":"1f97b727b7527a16","x":-540,"y":-330,"width":250,"height":100,"type":"text","text":"Terminal 1:\n\t`ros2 launch agv_description agv_gazebo.launch.xml `"},
+		{"id":"ce5088544f229943","x":400,"y":-310,"width":250,"height":60,"type":"text","text":"Terminal 4: `rviz2` or `ros2 run rviz2 rviz2`"},
+		{"id":"d40c84cfb3f2ebbb","x":-402,"y":296,"width":250,"height":84,"type":"text","text":"Start the robot stack\n`ros2 launch agv_description agv_gazebo.launch.xml`"},
+		{"id":"8e004911ca9b8d00","x":-20,"y":1100,"width":250,"height":60,"type":"text","text":""},
+		{"id":"e66c74299eeb9baa","x":265,"y":308,"width":250,"height":60,"type":"text","text":"`ros2 run rviz2 rviz2`"},
+		{"id":"03e1294861bbb181","x":-74,"y":-60,"width":301,"height":85,"type":"text","text":"Use `ros2 run turtlebot3_teleop teleop_kkeyboard_twist` to move the robot and load the map"},
+		{"id":"ca135d1d317c70ec","x":-123,"y":100,"width":400,"height":55,"type":"text","text":"Save the map using:\n`ros2 run nav2_map_server map_saver_cli -f filename`"},
+		{"id":"f6385fabf778cf98","x":-60,"y":276,"width":274,"height":124,"type":"text","text":"`ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=map_location.yaml`"}
+	],
+	"edges":[
+		{"id":"d87e6d99f14af97f","fromNode":"a8a84c2fb9186b84","fromSide":"bottom","toNode":"f3c24e9054ee4c15","toSide":"top"},
+		{"id":"2afeb647aadf588d","fromNode":"473d73ec0a5d443e","fromSide":"bottom","toNode":"f3c24e9054ee4c15","toSide":"top"},
+		{"id":"e704efd7d2b903d7","fromNode":"f3c24e9054ee4c15","fromSide":"bottom","toNode":"1f97b727b7527a16","toSide":"top"},
+		{"id":"f9d793747d367752","fromNode":"f3c24e9054ee4c15","fromSide":"bottom","toNode":"4c9f006052752093","toSide":"top"},
+		{"id":"8fadfc95e555c9d4","fromNode":"f3c24e9054ee4c15","fromSide":"bottom","toNode":"d9d7744729602525","toSide":"top"},
+		{"id":"86181a252e1c7e71","fromNode":"f3c24e9054ee4c15","fromSide":"bottom","toNode":"ce5088544f229943","toSide":"top"},
+		{"id":"9768746b4dfff359","fromNode":"1f97b727b7527a16","fromSide":"bottom","toNode":"03e1294861bbb181","toSide":"top"},
+		{"id":"91867600817c9b97","fromNode":"4c9f006052752093","fromSide":"bottom","toNode":"03e1294861bbb181","toSide":"top"},
+		{"id":"b13aebdc198e6631","fromNode":"d9d7744729602525","fromSide":"bottom","toNode":"03e1294861bbb181","toSide":"top"},
+		{"id":"fc8f18120d4b5a0f","fromNode":"ce5088544f229943","fromSide":"bottom","toNode":"03e1294861bbb181","toSide":"top"},
+		{"id":"93222d7389f2b230","fromNode":"03e1294861bbb181","fromSide":"bottom","toNode":"ca135d1d317c70ec","toSide":"top"},
+		{"id":"44c83b2c085fc9e5","fromNode":"ca135d1d317c70ec","fromSide":"bottom","toNode":"d40c84cfb3f2ebbb","toSide":"top"},
+		{"id":"fd4b6fe9075afe73","fromNode":"ca135d1d317c70ec","fromSide":"bottom","toNode":"f6385fabf778cf98","toSide":"top"},
+		{"id":"1f7d91bd909575ec","fromNode":"ca135d1d317c70ec","fromSide":"bottom","toNode":"e66c74299eeb9baa","toSide":"top"}
+	]
+}

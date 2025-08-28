@@ -1,5 +1,5 @@
 **Date**: 2025-07-29 **Time**: 10:03
-**Status**: #ROS2
+**Status**: 
 **Tags**: [[ROS2]]
 # Section 7 - ROS 2 Interfaces
 ## 63. Intro

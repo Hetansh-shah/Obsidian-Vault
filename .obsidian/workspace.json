@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "c777cfe000ba17db",
+        "id": "4a90fef51bcb4cdb",
         "type": "tabs",
         "children": [
           {
-            "id": "3431047fff3698c1",
+            "id": "35b98e48139be5b8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pictures/Pasted image 20250806115846.png"
+                "file": "3 - ROS2/ROS2 Control/ROS2 control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250806115846"
+              "icon": "lucide-file",
+              "title": "ROS2 control"
             }
           }
         ],
@@ -87,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 200
   },
   "right": {
     "id": "e7b92736f485c7bf",
@@ -180,6 +192,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -189,53 +202,56 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "02094767f3de22a3",
+  "active": "35b98e48139be5b8",
   "lastOpenFiles": [
-    "3 - ROS2/ROS 2 - TFs, URDF/Section 6 - Simulate your robot.md",
-    "Untitled",
-    "Pictures/Pasted image 20250818191148.png",
-    "Pictures/Pasted image 20250818125619.png",
-    "Pictures/Pasted image 20250818124101.png",
-    "3 - ROS2/ROS 2 - TFs, URDF/Section 4 - Broadcast TFs with the Robot State Publisher.md",
-    "Pictures/Pasted image 20250818104429.png",
-    "3 - ROS2/ROS 2 - TFs, URDF/Section 5 - Improve the URDF with Xacro.md",
+    "Pictures/Pasted image 20250823175222.png",
+    "3 - ROS2/ROS2 Control/ROS2 control.md",
+    "Untitled.base",
+    "1 - Rough Notes/Things to look up.md",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "Untitled.md",
+    "3 - ROS2/ROS2 Nav2 - with SLAM and Navigation/Flowchart of creating a Nav2 Project.canvas",
+    "3 - ROS2/ROS2 Control",
+    "3 - ROS2/ROS2 Nav2 - with SLAM and Navigation/ROS2 Nav2.md",
+    "3 - ROS2/ROS2 Nav2 - with SLAM and Navigation/SLAM on custom robo.canvas",
+    "1 - Rough Notes/Ideas.md",
+    "Pictures/Pasted image 20250823233301.png",
+    "Pictures/Pasted image 20250823233154.png",
+    "Pictures/Pasted image 20250823225923.png",
+    "Pictures/Pasted image 20250823224844.png",
+    "Pictures/Pasted image 20250823224424.png",
+    "Pictures/Pasted image 20250823223158.png",
+    "Pictures/Pasted image 20250823222920.png",
+    "Pictures/Pasted image 20250823180747.png",
+    "Pictures/Pasted image 20250823174845.png",
+    "my_map.pgm",
     "ROS2.md",
-    "Pictures/Pasted image 20250818104137.png",
-    "Pictures/Pasted image 20250818102444.png",
-    "3 - ROS2/ROS 2 - TFs, URDF/Section 3 - Create a URDF for a Robot.md",
-    "3 - ROS2/ROS 2 - TFs, URDF/Section 2 - TF (Transform) Overview.md",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 9 - Scaling with Launch Files.md",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 8 - ROS 2 Parameters.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 4 - Broadcast TFs with the Robot State Publisher.md",
     "3 - ROS2/ROS 2 for Beginners - 1/Commands.md",
+    "command.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 5 - ROS 2 Topics.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 7 - ROS 2 Interfaces.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 8 - ROS 2 Parameters.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 4 - ROS 2 tools.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 3 - First ROS2 Program.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 2 - TF (Transform) Overview.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 3 - Create a URDF for a Robot.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 5 - Improve the URDF with Xacro.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 6 - Simulate your robot.md",
+    "3 - ROS2/ROS 2 - TFs, URDF/Section 7 - Adding a sensor in Gazebo.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 6 - ROS 2 services.md",
+    "3 - ROS2/ROS 2 for Beginners - 1/Section 9 - Scaling with Launch Files.md",
+    "3 - ROS2/ROS2 Nav2 - with SLAM and Navigation/Untitled",
+    "3 - ROS2/ROS2 Nav2 - with SLAM and Navigation",
+    "Untitled.canvas",
     "3 - ROS2/ROS 2 - TFs, URDF",
     "3 - ROS2/ROS 2 for Beginners - 1",
     "Meeting with Tushar Vaidya.md",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 7 - ROS 2 Interfaces.md",
-    "Pictures/Pasted image 20250806115846.png",
-    "command.md",
     "Meet notes.md",
-    "Pictures/Pasted image 20250723152341.png",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 6 - ROS 2 services.md",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 3 - First ROS2 Program.md",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 4 - ROS 2 tools.md",
     "README.md",
     "steps.md",
-    "3 - ROS2/ROS 2 for Beginners - 1/Section 5 - ROS 2 Topics.md",
-    "ROS 2 course.md",
     "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/robot_news_station.py",
-    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/number_publisher.py",
-    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/add_two_ints_client_no_oop.py",
-    "3 - ROS2/code_end_section6/my_py_pkg/my_py_pkg/add_two_ints_client.py",
-    "1 - Rough Notes/Things to look up.md",
-    "3 - ROS2/code_end_section6/Section 6 - ROS2 services.md",
-    "3 - ROS2/code_end_section6/my_cpp_pkg/src/robot_news_station.cpp",
-    "3 - ROS2/code_end_section6/my_cpp_pkg/src/template_cpp_node.cpp",
-    "3 - ROS2/code_end_section6/my_cpp_pkg/src/smartphone.cpp",
-    "3 - ROS2/AGV/Research.md",
-    "4 - ROS2/Untitled.canvas",
-    "2 - Templates/Callouts.md",
-    "2 - Templates/New Note.md",
-    "4 - ROS2/WIN_20250711_10_34_03_Pro.jpg",
-    "WIN_20250711_10_34_03_Pro.jpg"
+    "4 - ROS2/Untitled.canvas"
   ]
 }

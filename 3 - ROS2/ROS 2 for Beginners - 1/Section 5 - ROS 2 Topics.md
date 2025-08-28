@@ -1,6 +1,6 @@
 **Date**: 2025-07-23 **Time**: 15:32
-**Status**: #baby #ROS2
-**Tags**: [[command]] [[ROS2]]
+**Status**: #command  
+**Tags**: [[ROS2]]
 # Section 5 - ROS 2 Topics
 
 

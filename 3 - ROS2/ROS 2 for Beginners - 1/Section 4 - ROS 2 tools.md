@@ -1,5 +1,5 @@
 **Date**: 2025-07-23 **Time**: 11:36
-**Status**: #child #ROS2
+**Status**: 
 **Tags**: [[ROS2]]
 # Section 4 - ROS 2 tools
 

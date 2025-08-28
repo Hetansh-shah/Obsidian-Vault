@@ -1,6 +1,6 @@
 **Date**: 2025-08-11 **Time**: 16:14
-**Status**:
-**Tags**: 
+**Status**: 
+**Tags**:
 # Section 3 - Create a URDF for a Robot
 ## 11. Intro - What is a URDF?
 URDF stands for **Unified Robot Description Format**.

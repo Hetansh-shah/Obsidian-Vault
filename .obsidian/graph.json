@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ROS2  ",
+      "query": "[\"aliases\":",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -22,16 +22,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.68529411764706,
   "lineSizeMultiplier": 3.36384083044983,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.153979238754325,
   "repelStrength": 8.6159169550173,
   "linkStrength": 1,
   "linkDistance": 143,
-  "scale": 0.7631428283688916,
+  "scale": 0.33917459038617404,
   "close": false
 }

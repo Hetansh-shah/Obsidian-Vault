@@ -1,6 +1,6 @@
 **Date**: 2025-07-26 **Time**: 09:58
-**Status**: #baby #ROS2
-**Tags**: [[command]] [[ROS2]]
+**Status**: #command
+**Tags**:  [[ROS2]]
 # Section 6 - ROS 2 services
 ## 49. Intro
 The two most important communication features in ROS 2 are Topics and Services.

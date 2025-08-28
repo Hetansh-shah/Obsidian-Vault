@@ -1,5 +1,5 @@
 **Date**: 2025-07-31 **Time**: 10:51
-**Status**: #ROS2 
+**Status**: 
 **Tags**: [[ROS2]]
 # Section 8 - ROS 2 Parameters
 

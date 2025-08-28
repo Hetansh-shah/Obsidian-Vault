@@ -1,5 +1,5 @@
 **Date**: 2025-08-05 **Time**: 11:40
-**Status**: #ROS2 
+**Status**: 
 **Tags**: [[ROS2]]
 # Section 9 - Scaling with Launch Files
 

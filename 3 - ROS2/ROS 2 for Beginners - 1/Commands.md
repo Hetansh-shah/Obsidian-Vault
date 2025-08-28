@@ -1,3 +1,4 @@
+Tags: #command 
 Building:
 ```
 colcon build

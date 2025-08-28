@@ -1,6 +1,6 @@
 **Date**: 2025-07-17 **Time**: 13:59
-**Status**: #child #ROS2 
-**Tags**: [[command]] [[ROS2]] 
+**Status**: #command 
+**Tags**: [[ROS2]] 
 # Section 3 - First ROS2 Program
 ---
 ## Create a ROS 2 Workspace
